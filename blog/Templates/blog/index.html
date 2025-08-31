@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first blog</title>
+</head>
+<style>
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(8, 247, 247);
+        margin: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: 70%;
+        height: 350px;
+        background-color: rgba(172, 160, 241, 0.897);
+        margin: 200px auto 200px;
+    }
+
+    h1 {
+        color: black;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    p {
+        color: brown;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17pt;
+        ;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>This is a test article</h1><br><br><br>
+        <p>Welcome to my first page made with django templates</p>
+        <p>Date & Time : {{currentdatetime}}</p>
+    </div>
+</body>
+
+</html>
